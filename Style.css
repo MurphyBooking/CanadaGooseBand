@@ -1,0 +1,56 @@
+body {
+    background-image: url('media/photos/PageCoverPhoto.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+  header h1 {
+    background: white;
+    background-size: cover;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-family: monospace;
+    }
+    ul {
+      margin: 0px;
+      padding: 0px;
+      list-style: none;
+      position:absolute;
+      z-index: 1;
+      }
+      ul li  {
+        float: left;
+        width: 200px;
+        height: 80;
+        background-color: none;
+        line-height: 40px;
+        text-align: left;
+        font-size: 25px;
+
+        }
+        ul li a{
+          text-decoration: none;
+          color: White;
+          Display: block;
+
+          }
+          ul li a:hover {
+            background-color: cover;
+          }
+          ul li ul li {
+            display: none;
+          }
+          ul li:hover ul li {
+            display: block;
+          }
+          h2 {
+      font-variant: small-caps;
+      text-shadow: 1px 1px 1px #590A0A,
+               2px 2px 1px black;
+      color: white;
+      font-family: courier;
+      font-size: 80px;
+      font-weight: 100;
+      position:relative;
+      top: -60px;
+
+    }
